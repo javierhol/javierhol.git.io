@@ -1,0 +1,117 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+.contenedor {
+	padding:30px;
+	background-color:#232323;
+	display:flex;
+}
+.titulo {
+	margin-left:100px;
+	margin-right:450px;
+	background:linear-gradient(to right,white,white,white,#2678DC,#2678DC,#2678DC,#2678DC,#2678DC);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+.menu {
+	margin-top:13px;
+}
+.menu a {
+	color:white;
+	margin-right:20px;
+	text-decoration:none;
+}
+.clean {
+	border:3px solid #2678DC;
+}
+nav a:hover{
+	color:#2678DC;
+}
+.contenedor2 {
+	background-color:#232323;
+}
+.item h3 {
+	font-size:25px;
+	margin-right:350px;
+	color:white;
+	margin-left:150px;
+}
+section .item {
+	padding:25px;
+	display:inline-block;
+}
+form .f1 {
+	padding:10px;
+}
+form .f2 {
+	color:white;
+	padding:10px;
+	background-color:#B8460A;
+	text-decoration:none;
+}
+.clean2 {
+	border:3px solid white;
+}
+footer {
+	padding:25px;
+	color:white;
+	text-align:center;
+	background-color:#3194BF;
+}
+ /*SECTION  CONTACTOS*/
+
+.contenedor40 .contacto {
+	font-size:25px;
+	margin-bottom:10px;
+	display:inline-block;
+}
+
+.contenedor40 {
+ 	margin-left:100px;
+ 	background-color:white;
+ 	position:relative;
+}
+
+.contenedor40 input {
+	padding:10px 10px 10px 2px;
+	margin-bottom:10px;
+	width:700px;
+}
+.contenedor40 .mensaje {
+	padding-bottom: 90px;
+}
+.contenedor40 .boton {
+	width:715px;
+	color:white;
+	background:#F1571D;
+	margin-bottom:20px;
+}
+.contacto .item3{
+	font-size:15px;
+	display:inline-block;
+	background:#3D4244;
+	color:white;
+	padding:10px;
+}
+.tituloContacto{
+	padding:10px 0px 10px 0px;
+	font-size:20px;
+}
+
+.cajatexto {
+	font-size:15px;
+	display:block;
+}
+
+.contacto img {
+	margin-top:10px;
+	width:315px;
+}
+.contacto10 {
+	padding-top:10px;
+	margin-left:50px;
+}
+.contactotext {
+	margin-bottom:20px;
+}

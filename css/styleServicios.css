@@ -1,0 +1,102 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+.contenedor {
+	padding:30px;
+	background-color:#232323;
+	display:flex;
+}
+.titulo {
+	margin-left:100px;
+	margin-right:450px;
+	background:linear-gradient(to right,white,white,white,#2678DC,#2678DC,#2678DC,#2678DC,#2678DC);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+.menu {
+	margin-top:13px;
+}
+.menu a {
+	color:white;
+	margin-right:20px;
+	text-decoration:none;
+}
+.clean {
+	border:3px solid #2678DC;
+}
+nav a:hover{
+	color:#2678DC;
+}
+.contenedor2 {
+	background-color:#232323;
+}
+.item h3 {
+	font-size:25px;
+	margin-right:350px;
+	color:white;
+	margin-left:150px;
+}
+section .item {
+	padding:25px;
+	display:inline-block;
+}
+form .f1 {
+	padding:10px;
+}
+form .f2 {
+	color:white;
+	padding:10px;
+	background-color:#B8460A;
+	text-decoration:none;
+}
+.clean2 {
+	border:3px solid white;
+}
+footer {
+	padding:25px;
+	color:white;
+	text-align:center;
+	background-color:#3194BF;
+}
+footer {
+	margin-top:20px;
+}
+
+/*SECTION SERVICIOS*/
+
+.contenedor30 {
+	padding-left:80px;
+	background-color:white;
+	position:relative;
+}
+.contenedor30 .caja {
+	display:inline-block;
+	border:1px solid #929495;
+	width:680px;
+	padding:20px;
+	margin:5px;
+	background:#CACCCD;
+}
+.caja1 {
+	font-size:25px;
+	padding-top:10px;
+	padding-bottom:5px;
+	padding-left:10px;
+}
+.texto {
+	padding: 10px 10px 10px 0px;
+	
+}
+
+.contenedor30 .cajaservicios {
+	color:white;
+	display:inline-block;
+	padding:20px;
+	background:#3D4244;
+	margin-left:30px;
+}
+.tituloAside {
+	padding-bottom:15px;
+	font-size:20px;
+}

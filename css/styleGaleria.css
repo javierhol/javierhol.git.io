@@ -1,0 +1,150 @@
+body{
+	background: #444;
+	margin: 0;
+}
+.contenedor {
+	padding:30px;
+	background-color:#232323;
+	display:flex;
+	width: 100%;
+	
+}
+.titulo {
+	margin-left:100px;
+	margin-right:450px;
+	background:linear-gradient(to right,white,white,white,#2678DC,#2678DC,#2678DC,#2678DC,#2678DC);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+/*ESTILOS DE MENU Y AGENDATE*/
+.menu {
+	margin-top:13px;
+	display: flex;
+	width: 100%;
+}
+.menu a {
+	color:white;
+	margin-right:20px;
+	text-decoration:none;
+}
+.clean {
+	border:3px solid #2678DC;
+}
+nav a:hover{
+	color:#2678DC;
+}
+.contenedor2 {
+	background-color:#232323;
+	display:flex;
+	width: 100%;
+}
+.item h3 {
+	font-size:25px;
+	margin-right:350px;
+	color:#2678DC;
+	margin-left:150px;
+}
+section .item {
+	padding:25px;
+	display:inline-block;
+}
+form .f1 {
+	padding:10px;
+}
+form .f2 {
+	color:white;
+	padding:10px;
+	background-color:#B8460A;
+	text-decoration:none;
+}
+/*ESTILOS DE GALERIA*/
+.galeria1{
+	width: 90%;
+	margin: auto;
+	list-style: none;
+	padding: 20px;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.galeria1 li{
+	margin: 5px;
+}
+.galeria1 img{
+	width: 150px;
+	height: 100px;
+}
+/*ESTILOS DE AGRANDAR*/
+.agrandar{
+	position: absolute;
+	top: -100%;
+	display: none;
+}
+.agrandar:target{
+	transition: all 0.5s;
+	display: block;
+	position: fixed;
+	background: rgba(0,0,0,0.8);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+}
+.agrandar h3{
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	margin: 15px 0;
+
+}
+/*ESTILOS DE IMAGEN*/
+.imagen{
+	width: 100%;
+	height: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.imagen a{
+    color: #fff;
+	font-size: 40px;
+	text-decoration: none;
+	margin: 0 10px;
+}
+.imagen a:nth-child(2){
+	margin: 0;
+	height: 100%;
+	flex-shrink: 2;
+}
+
+.imagen img{
+	width: 500px;
+	height: 100%;
+	max-width: 100%;
+	border: 7px solid #fff;
+	box-sizing: border-box;
+
+}
+.cerrar{
+	display: block;
+	background: #fff;
+	width: 25px;
+	height: 25px;
+	margin: 15px auto;
+	text-align: center;
+	text-decoration: none;
+	font-size: 25px;
+	color: #000;
+	padding: 5px;
+	border-radius: 50%;
+	line-height: 25px;
+}
+footer {
+	padding:25px;
+	color:white;
+	text-align:center;
+	background-color:#3194BF;
+}
